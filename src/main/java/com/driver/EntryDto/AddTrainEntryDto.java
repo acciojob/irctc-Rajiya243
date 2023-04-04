@@ -31,18 +31,23 @@ public class AddTrainEntryDto {
     }
 
     public LocalTime getDepartureTime() {
+
         return departureTime;
     }
 
     public void setDepartureTime(LocalTime departureTime) {
+
         this.departureTime = departureTime;
     }
 
     public int getNoOfSeats() {
+
         return noOfSeats;
     }
 
     public void setNoOfSeats(int noOfSeats) {
+
         this.noOfSeats = noOfSeats;
     }
+
 }
